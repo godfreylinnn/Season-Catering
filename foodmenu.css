@@ -1,0 +1,286 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8e3d3;
+            margin: 0;
+            padding: 20px;
+        }
+
+      
+header {
+    height: 80px;
+    width: 1263px;
+    background-color: #E1C371;
+    color: white;
+    text-align: center;
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.fa-bars{
+    font-size: 40px;
+     color: #462009;
+     text-align: center;
+     border-radius: 10px;
+     margin-top: 20px;
+     height: 80px;
+     padding-bottom: 0%;
+}
+.fa-bars:hover{
+    cursor: pointer ;
+    color: #fff;
+}
+.logo img{
+     margin-right: 1000px;
+     text-align: center;
+     border-radius: 10px;
+     width: 100px;
+     height: 100px;
+     margin-bottom: 20px;
+     padding-bottom: 0%;
+     margin-top: 0px;
+
+    
+}
+.head {
+            background-color: #efefef;
+            background-image: url(foodmenu.jpeg);
+            background-size: cover;
+            width: 1223px;
+            height: 500px;
+            color: #eee9e9;
+            padding: 20px;
+            text-align: center;
+            background-position: center;
+            margin-top: 0px;
+        }
+ .line{
+            width: 800px;
+            height: 10px;
+            margin-top: 15px;
+            padding-top: 10px;
+            background-color: #462009;
+            margin-left: 215px;
+            border-radius: 5px;
+
+        }
+        .square{
+            background-color: #462009 ;
+            width: 800px;
+            height: 90px;
+            margin: auto;
+            border-radius: 10px;
+            padding-bottom: 3px;
+            margin-top: 190px;
+        }
+        .rec{
+            background-color: #E1C371;
+            height: 1px;
+            width: 700px;
+            margin: auto;
+            padding-top: 2px;
+            margin-bottom: 15px;
+            
+
+        }
+ h1{
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            letter-spacing: 1.5px;
+            font-weight: bolder;
+            font-size: 50px;
+            align-content: center;
+            position: middle;
+            padding-top: 15px;
+        }
+         .rec{
+            background-color: #E1C371;
+            height: 1px;
+            width: 300px;
+            margin: auto;
+            padding-top: 2px;
+            margin-bottom: 15px;
+            
+
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        .menu-description {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 100px;
+            font-size: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 100px;
+            font-size: 60px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        .food-category {
+            margin-bottom: 40px;
+            margin-left: 100px;
+            
+        }
+
+        .food-category h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .food-item {
+            margin-left: 5000px;
+            align-items: center;
+            display: inline-block;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 600px;
+            width: 500px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .food-item img {
+            width: 370px;
+            height: auto;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .food-item p {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .food-item .price {
+            font-weight: bold;
+            font-size: 20px;
+            color: #E1C371;
+        }
+
+        .order-button {
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 20px;
+            width: 200px;
+            background-color: #E1C371;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+
+        .order-button:hover {
+            background-color: #7b5b45;
+        }
+        h4{
+            text-align: center;
+            font-style: italic;
+        }
+      
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+        .food-category .rec{
+            width: 120px;
+        }
+        .category {
+            display: relative;
+            width: 100px;
+            margin-left: 100px;
+            margin-bottom: 40px;
+            border-bottom: 2px solid #dcdcdc;
+            padding-bottom: 20px;
+            
+        }
+        .category h2 {
+            color: #000000;
+            text-align: center;
+        }
+        .item {
+            
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .item img {
+            max-width: 100px;
+            border-radius: 5px;
+        }
+        .order-button {
+            background-color: #d18f43;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f4e3;
+            margin: 0;
+            padding: 20px;
+        }
+        .menu {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #d1c6ab;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        h2 {
+            color: #000000;
+        }
+        .item {
+            display: inline-block;
+            width: 300px;
+            justify-content: space-between;
+            padding: 10px 0;
+            margin-right: 100px;
+        }
+        .price {
+            color: #a52a2a;
+        }
+        .order-button {
+            background-color: #E1C371;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .order-button:hover {
+            background-color: #000000;
+        }
+        .footer{
+            text-align: center;
+            background-color: #E1C371;
+            padding-bottom: 20px;
+        }
+        .foot img{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            align-content: center;
+            display: flex;
+        }
+        

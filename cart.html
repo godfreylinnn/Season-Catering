@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation Modal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+        .modal {
+            background-color: #e1c23776;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 50px;
+            width: 400px;
+            text-align: center;
+        }
+        .modal img {
+            width: 100%;
+            max-width: 150px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .modal h2 {
+            margin: 0;
+            color: #000000;
+        }
+        .modal .price {
+            font-size: 1.5em;
+            color: #d5a72c;
+        }
+        .modal .subtotal {
+            margin: 20px 0;
+            font-weight: bold;
+            border-top: 1px solid #000000;
+            padding-top: 10px;
+        }
+        .modal button {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            width: 150px;
+            background-color: #e1c23787;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 15px;
+        }
+        .modal button:hover {
+            background-color: #000000;
+        }
+        .close {
+            font-size: 90px;
+            cursor: pointer;
+            float: right;
+            font-size: 20px;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="modal">
+    <a href="foodmenu.html"><span class="close">×</span></a>
+    <h2>Successfully added to cart!</h2>
+    <img src="All-Beef-Kare-Kare-with-Homemade-Bagoong-600x600.jpg" alt="Beef Kare-kare">
+    <h3>Beef Kare-kare with Bagoong</h3>
+    <p class="price">1,240</p>
+    <div class="subtotal">Subtotal: 1,240</div>
+    <a href="foodmenu.html"><button>Order more</button></a>
+    <a href="checkout.html"><button>Check out</button></a>
+</div>
+
+<script>
+    document.querySelector('.close').onclick = function() {
+        document.querySelector('.modal').style.display = 'none';
+    };
+</script>
+
+</body>
+</html>
